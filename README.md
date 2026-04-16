@@ -1,4 +1,4 @@
-# Simulasi Interaktif Model Komunikasi dalam Sistem Terdistribusi (RR vs PubSub vs RPC)
+#  (RR vs PubSub vs RPC)
 
 Tugas: **Sister – Tugas 2**
 
@@ -123,27 +123,6 @@ python3 main.py
 python3.12 -c "import tkinter as tk; r=tk.Tk(); r.after(300, r.destroy); r.mainloop(); print('tk ok')"
 ```
 
-## 3.b Push ke GitHub (ringkas)
-
-1. Buat repo di GitHub.
-2. Di folder project:
-
-```zsh
-git init
-git add .
-git commit -m "Initial commit"
-```
-
-3. Tambahkan remote lalu push (ganti URL sesuai repo kamu):
-
-```zsh
-git remote add origin https://github.com/<username>/<repo>.git
-git branch -M main
-git push -u origin main
-```
-
-> File `.gitignore` sudah disediakan untuk mengabaikan `__pycache__`, `.venv`, `.DS_Store`, dll.
-
 ## 4. Cara Menggunakan (Interaksi Pengguna)
 
 ### Tombol
@@ -191,3 +170,4 @@ Panel metrik menampilkan RR, PubSub, dan RPC secara bersamaan:
 - Simulasi berjalan di event loop Tkinter dan memakai scheduler `after()`.
 - RR dan PubSub dapat berjalan bersamaan (concurrent) tanpa perlu thread tambahan.
 - Parameter loss diterapkan per hop secara probabilistik.
+
