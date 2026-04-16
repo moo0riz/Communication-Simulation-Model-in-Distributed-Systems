@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 # (RR vs PubSub vs RPC)
 
@@ -6,7 +5,6 @@
 
 # Communication Simulation Model in Distributed Systems (RR vs PubSub vs RPC)
 
-> > > > > > > ab04c65 (program)
 
 Simulasi GUI interaktif untuk memvisualisasikan dan membandingkan tiga model komunikasi pada sistem terdistribusi:
 
@@ -132,4 +130,3 @@ Panel metrik menampilkan RR, PubSub, dan RPC secara bersamaan:
 - **Sent/Delivered/Dropped** dihitung **per-hop**.
 - **Avg latency (e2e)** adalah rata-rata waktu end-to-end (mis. RR: request+response + processing).
 - **Throughput** dihitung sebagai delivered per detik.
-  > > > > > > > ab04c65 (program)
